@@ -343,19 +343,19 @@
     text-align: var(--section-footer-align);
   }
   
-  .section-about-us {
+  section-about-us {
 
   }
 
-  .section-latest-news {
+  section-latest-news {
 
   }
 
-  .section-testimonial {
+  section-testimonial {
 
   }
 
-  .section-contact {
+  section-contact {
     
   }
 
@@ -461,7 +461,7 @@
     opacity: 1;
   }
 
-  .section-works {
+  section-works {
 
   }
   
@@ -486,7 +486,7 @@
     transition-property: color, background-color;
   }
   
-  .section-services {
+  section-services {
 
   }
 
