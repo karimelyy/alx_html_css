@@ -342,22 +342,6 @@
     padding: var(--section-footer-padding);
     text-align: var(--section-footer-align);
   }
-  
-  section-about-us {
-
-  }
-
-  section-latest-news {
-
-  }
-
-  section-testimonial {
-
-  }
-
-  section-contact {
-    
-  }
 
   /* Section theming
       ============================= */
@@ -459,10 +443,6 @@
   
   .card-work:hover .card-title {
     opacity: 1;
-  }
-
-  section-works {
-
   }
   
   /* Card SERVICES
