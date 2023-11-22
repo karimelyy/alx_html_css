@@ -1,0 +1,243 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-image: url(headphones_hero_1.jpg);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  
+  .header {
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+  }
+  
+  .header-logo img {
+    display: block;
+  }
+  
+  
+  .navbar-menu {
+    display: flex;
+  }
+  
+  .nav {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-item {
+    margin-right: 50px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .nav-link:hover {
+    color: #FF6565;
+  }
+
+  
+  
+  .section-hero {
+    background-position: center;
+    color: #fff;
+    padding: 180px 0;
+  }
+  
+  .section-inner {
+    max-width: 637px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .section-title-1 {
+    font-size: 32px;
+    margin-top: 80px;
+  }
+  
+  .section-title-2 {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF6565;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 1.375rem;
+    margin-top: 20px;
+  }
+  
+  .button:hover {
+    background-color: #fc5858;
+  }
+  
+  p {
+    margin-top: 50px;
+  }
+  
+       /*  "What we do" section */
+  
+  
+  .section-what {
+    background-position: center;
+    background-color: white;
+    color: #fff;
+    padding: 180px 0;
+  }
+  
+  .section-header {
+    max-width: 637px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 180px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .section-title {
+    color: black;
+    font-size: 32px;
+    margin-bottom: 10px;
+    margin-top: -80px;
+    text-align: center;
+  }
+  
+  .section-text {
+    color: black;
+    font-size: 16px;
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  .section-icons {
+    text-align: center;
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .section-icons .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: -280px;
+  }
+  
+  .icon {
+    margin: 0 10px;
+    font-size: 70px;
+    font-family: 'holberton_school-icon';
+    color: #FF6565;
+  }
+  
+  .icon-title {
+    font-size:18px;
+  }
+  
+  .icon.text {
+    font-size: 4px;
+    margin-right: 20px;
+    word-wrap: break-word;
+  }
+
+
+/* "Our results" section */
+
+
+.our-results-section {
+  background: url(headphones_hero_2.jpg) center/cover no-repeat;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 2rem 2rem;
+}
+
+.our-results-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  text-align: center; 
+  max-width:  62.5rem;;
+  margin: auto;
+}
+
+.our-results-container h1 {
+  color: #FF6565;
+  font-size: 2rem;
+  text-align: center; 
+  margin:3rem 0;
+}
+
+.our-results-container p {
+  color: white;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.pentagone-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.pentagone h2 {
+  margin: 15px;
+  font-size: 2.88rem;
+  font-weight: 600;
+  line-height: 1.625rem;
+  margin: -20px;
+}
+
+.pentagone p {
+  font-size: 14px;
+  margin-left: -30px;
+  margin-right: -30px;
+}
+
+.pentagone {
+  position: relative;
+  overflow: hidden;
+}
+.pentagone:hover {
+  animation: scaleAnimation 1s;
+}
+
+.pentagone img {
+  width: 100%; 
+  color: #FF6565;
+  max-width: 11rem;
+}
+.text-inside {
+  color: white;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
